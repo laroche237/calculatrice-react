@@ -1,0 +1,37 @@
+.button-panel{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);/* définit 4 colonnes de longueurs égales*/
+    gap: 10px;
+    max-width: 250px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button.operator{
+    background-color: aquamarine;
+    color: black;
+}
+
+.button.operator:hover{
+    background-color: cadetblue;
+
+}
+
+.clear{
+    background-color: blue;
+    color: azure;
+}
+
+.clear:hover{
+    background-color: brown;
+}
+
+.equals{
+    background-color: darkcyan;
+    color: blanchedalmond;
+}
+
+.equals:hover{
+    background-color: limegreen;
+}

@@ -1,0 +1,21 @@
+/* src/components/Display.css*/
+
+.display{
+    background-color: azure;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: right;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.input{
+    font-size: 24px;
+}
+
+.result{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
